@@ -1,0 +1,23 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./images/bgimage.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.input-group{
+    margin: auto;
+}
+
+
+.text-border-black {
+    text-shadow: 
+        -2px -2px 0 #000,  
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+}
